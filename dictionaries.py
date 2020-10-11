@@ -1,0 +1,10 @@
+dict={"asia":23,"africa":89,"australia":76}
+print(dict)
+print(dict["asia"])
+print(dict.keys())
+print(dict.values())
+dict['brazil']='68'
+print(dict)
+del(dict['asia'])
+del(dict['africa'])
+print(dict)

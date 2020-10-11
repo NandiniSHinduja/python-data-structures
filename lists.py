@@ -1,0 +1,23 @@
+list=[3,6.7,"asia"]
+print(list)
+print(list[0])
+print(list[1])
+print(list[2])
+print(list[-1])
+print(list[-2])
+print(list[-3])
+print(list[0:3])
+print(len(list))
+list[0]="camels"
+print(list)
+list.append([3,"eagle"])
+print(list)
+list.extend([2,35])
+print(list)
+del(list[0])
+list.extend(["pencil box", 1098])
+print(list)
+print("hard rock".split())
+print('A,B,C,D'.split(','))
+list2=list
+print(list2)
